@@ -1,0 +1,30 @@
+body {
+  max-width: 960px;
+  width: 100%;
+}
+header {
+  background-color: red;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  background-color: rgb(32, 122, 224);
+  width: 50%;
+}
+.aside1 {
+  background-color: yellow;
+  width: 25%;
+  text-align: center;
+}
+.aside2 {
+  background-color: rgb(243, 135, 189);
+  width: 25%;
+  text-align: center;
+}
+footer {
+  background-color: rgb(153, 150, 150);
+  text-align: center;
+}

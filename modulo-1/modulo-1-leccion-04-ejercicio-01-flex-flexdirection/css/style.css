@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(240, 226, 207);
+  flex-direction: row; /* Eje principal horizontal */
+  /*flex-direction: column;*/ /*Eje principal vertical*/
+}
+.box {
+  border: rgb(21, 87, 88) 2px solid;
+}
