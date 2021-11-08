@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+}
+header {
+  background-color: rgb(224, 121, 3);
+}
+main {
+  display: flex;
+}
+.aside-1 {
+  background-color: yellow;
+  width: 20%;
+}
+.aside-2 {
+  background-color: rgb(252, 117, 139);
+  width: 20%;
+}
+article {
+  background-color: cyan;
+  width: 60%;
+}
+footer {
+  background-color: rgb(85, 167, 85);
+}
