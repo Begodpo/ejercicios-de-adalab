@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(196, 193, 193);
+  height: 100px;
+}
+main {
+  background-color: gray;
+  height: 100vh;
+}
+footer {
+  background-color: orange;
+  min-height: 100px;
+}
