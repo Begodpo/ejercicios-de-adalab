@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+div {
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.article-1 {
+  border: 2px black solid;
+  width: 50%;
+  padding: 10px;
+}
+.article-2 {
+  border: 2px black solid;
+  width: 50%;
+  padding: 10px;
+}
+
+.article-3 {
+  border: 2px black solid;
+  width: 50%;
+  padding: 10px;
+}
+.article-4 {
+  border: 2px black solid;
+  width: 50%;
+  padding: 10px;
+}
+.article-5 {
+  border: 2px black solid;
+  width: 100%;
+  order: -3;
+  padding: 10px;
+}
