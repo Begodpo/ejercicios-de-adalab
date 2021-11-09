@@ -1,0 +1,7 @@
+ul {
+  background-color: cornflowerblue;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px;
+}
