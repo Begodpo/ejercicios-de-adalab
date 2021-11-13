@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: white;
+}
+body {
+  background: rgb(180, 177, 177);
+  height: 67vh;
+}
+.title {
+  background-color: rgb(180, 177, 177);
+}
+.title,
+menu {
+  height: 54px;
+}
+.menu {
+  background-color: green;
+}
+.main-container {
+  background-color: yellow;
+}
+.info {
+  background-color: rgb(80, 79, 79);
+  margin-top: 20px;
+}
