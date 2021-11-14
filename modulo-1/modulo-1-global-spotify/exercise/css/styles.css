@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: black;
+  display: flex;
+  /*position: fixed;*/
+}
+.hero {
+  background-color: blue;
+}
+.premium {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+}
+.footer-container {
+  background-color: black;
+  display: flex;
+}
