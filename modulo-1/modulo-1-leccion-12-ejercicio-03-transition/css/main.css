@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+}
+.popup {
+  height: 40px;
+  width: 150px;
+  border: 2px rgb(163, 160, 160);
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 5px rgb(194, 191, 191),
+    inset 0px 0px 2px 2px rgb(226, 223, 223);
+}
+.text {
+  text-align: center;
+  font-weight: bold;
+}
+.popup:hover {
+  transform: translate(0, -50vh);
+  transition: transform 5s cubic-bezier(0.5, 0.5, 1, 0.3);
+}
