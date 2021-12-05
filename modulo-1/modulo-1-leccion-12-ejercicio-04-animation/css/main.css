@@ -1,0 +1,13 @@
+body {
+}
+.comic {
+  background-color: rgb(185, 151, 218);
+  height: auto;
+}
+.comic__boom {
+  text-align: center;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 100px;
+}
