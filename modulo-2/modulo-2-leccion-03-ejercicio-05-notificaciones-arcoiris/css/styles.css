@@ -1,0 +1,15 @@
+.success {
+  border: rgb(1, 36, 1) solid 5px;
+  background-color: rgb(68, 145, 68);
+  color: rgb(1, 36, 1);
+}
+.error {
+  border: rgb(78, 2, 2) solid 5px;
+  background-color: rgb(248, 52, 52);
+  color: rgb(78, 2, 2);
+}
+.warning {
+  border: rgb(139, 139, 4) solid 5px;
+  background-color: rgb(243, 243, 96);
+  color: rgb(139, 139, 4);
+}
