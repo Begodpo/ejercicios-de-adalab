@@ -1,0 +1,8 @@
+.light {
+  background-color: burlywood;
+  color: rgb(3, 3, 56);
+}
+.dark {
+  background-color: rgb(3, 3, 56);
+  color: burlywood;
+}

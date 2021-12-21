@@ -114,3 +114,4 @@ else if (board_data.classList.contains('listview')) {
 
 
 
+
