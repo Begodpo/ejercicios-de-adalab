@@ -1,0 +1,22 @@
+.mainContainer {
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  &__title {
+    font-size: 30px;
+    color: var(--diversity-text);
+    text-transform: capitalize;
+    word-spacing: 200vh;
+    @media (min-width: 768px) {
+      font-size: 40px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 60px;
+      word-spacing: 300vh;
+    }
+  }
+}

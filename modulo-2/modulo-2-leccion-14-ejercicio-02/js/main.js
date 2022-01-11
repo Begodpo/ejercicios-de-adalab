@@ -1,13 +1,14 @@
 'use strict';
 let counter = 0;
-
+let temp;
 const incrementAndShowCounter = () => {
   counter++;
   const time = document.querySelector('.time');  
-  if (counter < 13) {
-    time.innerHTML = counter;
+  time.innerHTML = counter;
+  if (counter === 12) {
+    clearInterval(temp);
   }
 };
 
 
-setInterval(incrementAndShowCounter, 1000);
+temp = setInterval(incrementAndShowCounter, 1000);
