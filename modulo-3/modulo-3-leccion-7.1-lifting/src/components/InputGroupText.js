@@ -14,7 +14,7 @@ const InputGroupText = (props) => {
         name={props.inputName}
         id={props.inputId}
         placeholder={props.inputPlaceholder}
-        value={props.value}
+        value={props.inputvalue}
         onChange={props.handleChange}
       />
     </div>
